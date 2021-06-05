@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PreviewData"
+    android:id="@+id/coordinator">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/back_btn"/>
+
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cek Kembali Isian Data"
+                android:textSize="20sp"
+                android:textColor="#424242"
+                android:lineHeight="24px"
+                android:layout_marginTop="24dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NIK"
+                android:textSize="12sp"
+                android:textColor="#424242"
+                android:lineHeight="14px"
+                android:layout_marginTop="32dp"
+                />
+
+            <TextView
+                android:id="@+id/nik_fill"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#424242"
+                android:lineHeight="16px"
+                android:layout_marginTop="8dp"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="16dp"
+                android:background="#EEEEEE"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nama"
+                android:textSize="12sp"
+                android:textColor="#424242"
+                android:lineHeight="14px"
+                android:layout_marginTop="16dp"
+                />
+
+            <TextView
+                android:id="@+id/nama_fill"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#424242"
+                android:lineHeight="16px"
+                android:layout_marginTop="8dp"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="16dp"
+                android:background="#EEEEEE"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tanggal Lahir"
+                android:textSize="12sp"
+                android:textColor="#424242"
+                android:lineHeight="14px"
+                android:layout_marginTop="16dp"
+                />
+
+            <TextView
+                android:id="@+id/tgl_fill"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#424242"
+                android:lineHeight="16px"
+                android:layout_marginTop="8dp"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="16dp"
+                android:background="#EEEEEE"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jenis Kelamin"
+                android:textSize="12sp"
+                android:textColor="#424242"
+                android:lineHeight="14px"
+                android:layout_marginTop="16dp"
+                />
+
+            <TextView
+                android:id="@+id/jk_fill"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#424242"
+                android:lineHeight="16px"
+                android:layout_marginTop="8dp"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="16dp"
+                android:background="#EEEEEE"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hubungan Dengan Anda"
+                android:textSize="12sp"
+                android:textColor="#424242"
+                android:lineHeight="14px"
+                android:layout_marginTop="16dp"
+                />
+
+            <TextView
+                android:id="@+id/hubungan_fill"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#424242"
+                android:lineHeight="16px"
+                android:layout_marginTop="8dp"
+                />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="3">
+            <Button
+                android:id="@+id/btn_next"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Selanjutnya"
+                android:textColor="@color/white"
+                android:textAllCaps="false"
+                android:background="@drawable/bg_btn"
+                android:layout_marginTop="40dp"/>
+            <Button
+                android:id="@+id/btn_back"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Ubah"
+                android:textColor="#757575"
+                android:textAllCaps="false"
+                android:background="@drawable/bgbtn_ubah"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="24dp"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
